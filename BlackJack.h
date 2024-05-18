@@ -21,6 +21,7 @@ public:
     void dealerTurn();
     void determineWinner();
     void displayHands();
+  bool operator==(const Player& other) const;
 };
 
 #endif
